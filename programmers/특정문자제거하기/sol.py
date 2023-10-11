@@ -10,5 +10,13 @@ def solution(my_string, letter):
             answer += string
     return answer
 
+# vowels = 'aeiou'
+# def solution(my_string):
+#     for vowel in vowels:
+#         my_string = my_string.replace(vowel, '')   
+#     answer = my_string     
+#     return answer                ## 풀이3
+
+
 
 print(solution('abcdef','c'))

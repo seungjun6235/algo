@@ -31,6 +31,6 @@ for tc in range(1, T+1):
 
             else: # 최대거리 갔는데 충전소 없다면 => 도착불가능
                 count = 0
-                now = N
+                break     # now = N  
 
     print(f'#{tc} {count}')
